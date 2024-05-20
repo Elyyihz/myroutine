@@ -1,0 +1,73 @@
+/* Reset de estilos padrão */
+body, h1, h2, h3, p, em {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5; /* Cor de fundo da página */
+    color: #333; /* Cor do texto principal */
+    line-height: 1.6; /* Altura da linha para melhor legibilidade */
+}
+
+/* Estilo da barra de navegação */
+.navbar {
+    background-color: #333; /* Cor de fundo da barra de navegação */
+    color: #fff; /* Cor do texto da barra de navegação */
+    text-align: center; /* Centralizar o texto na barra de navegação */
+    padding: 15px 0; /* Espaçamento interno superior e inferior */
+    position: fixed; /* Fixar a barra de navegação no topo */
+    width: 100%; /* Largura total */
+    top: 0; /* Distância do topo */
+    z-index: 999; /* Para garantir que a barra de navegação fique acima de outros elementos */
+    transition: background-color 0.3s ease; /* Efeito de transição suave */
+}
+
+.navbar h1 {
+    margin: 0; /* Remover margens do h1 */
+}
+
+/* Estilo do link da barra de navegação */
+.navbar a {
+    color: #fff; /* Cor do texto */
+    text-decoration: none; /* Remover decoração de texto */
+    padding: 0 15px; /* Espaçamento interno horizontal */
+    transition: color 0.3s ease; /* Efeito de transição suave */
+}
+
+.navbar a:hover {
+    color: #ffd700; /* Cor do texto ao passar o mouse */
+}
+
+/* Estilo do conteúdo principal */
+.container {
+    max-width: 800px; /* Largura máxima do conteúdo */
+    margin: 80px auto 20px auto; /* Margem externa automática para centralizar o conteúdo */
+    padding: 0 20px; /* Espaçamento interno */
+    background-color: #fff; /* Cor de fundo do conteúdo */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilo dos cabeçalhos h2 e h3 */
+h2, h3 {
+    color: #333; /* Cor do texto */
+}
+
+/* Estilo do parágrafo */
+p {
+    margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+/* Estilo da citação */
+em {
+    font-style: italic; /* Texto em itálico */
+    color: #666; /* Cor do texto */
+}
+
+hr {
+    border: none; /* Remover a borda do hr */
+    border-top: 1px solid #ddd; /* Adicionar uma borda superior cinza */
+    margin: 20px 0; /* Espaçamento externo */
+}
